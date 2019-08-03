@@ -132,7 +132,7 @@
 - 各大框架，如VUE中，也是用这种方式实现的继承，组件构造函数继承VUE的构造函数
 
 
-##模拟对象创建的过程
+## 模拟对象创建的过程
 ```javascript
   var new2 = function (func) {
     var o = Object.create(func.prototype)
