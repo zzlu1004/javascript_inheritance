@@ -114,7 +114,7 @@
   var new2 = function (func) {
     var o = Object.create(func.prototype)
     var k = func.call(o)
-    if (typeof k == 'Object') {
+    if (typeof k == 'object') {
       return k
     }
     return o
