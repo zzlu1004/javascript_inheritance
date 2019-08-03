@@ -1,0 +1,2 @@
+# javascript_inheritance
+图解javascript继承原理
